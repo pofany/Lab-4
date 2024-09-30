@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <title>Робота з графікою</title>
+  <link href="images/fav.png" rel="icon">
+  <style>
+    /* General Body Styling */
+    body {
+      background: #DEE6E9;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Link Styling */
+    a {
+      text-decoration: none;
+      color: #007BFF;
+      font-size: 20px;
+      margin: 10px;
+      padding: 10px 15px;
+      background-color: #fff;
+      border: 2px solid #007BFF;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    a:hover {
+      background-color: #007BFF;
+      color: #fff;
+    }
+
+    /* Container for SVG to ensure proper scaling */
+    .svg-container {
+      width: 100%;
+      max-width: 600px; /* You can adjust this width */
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* SVG Styling */
+    svg {
+      width: 100%;
+      height: auto;
+      border: 3px solid #000;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Image Styling */
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+      font-size: larger;
+      color: #f61975;
+    }
+  </style>
+</head>
+<body>
+
+<a href="mona.html">CSS Picture</a>
+<a href="heart.html">CSS Animation</a>
+<a href="space.html">JavaScript Animation</a>
+<a href="trravel.html">SVG Animation</a>
+<!-- Container for SVG to keep it centered and properly sized -->
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <g>
+      <title>Layer 1</title>
+      <path stroke-width="3" id="svg_1" d="m413.00247,167.3941c-83.67249,0 -151.50247,46.78844 -151.50247,104.49536c0,19.7182 8.02161,38.14746 21.81537,53.88745l-21.81537,43.98782l60.74005,-14.32932c25.31091,13.09128 56.67361,20.95868 90.76242,20.95868c83.67206,0 151.49753,-46.78851 151.49753,-104.50464s-67.82547,-104.49536 -151.49753,-104.49536zm-24.84869,144.62366l-25.29932,23.25119l-69.58029,-64.00125l69.56866,-64.01958l25.31094,23.30266l-44.26691,40.71692l44.26691,40.75006l0,0zm76.52002,23.22049l-25.29013,-23.28149l44.28058,-40.70441l-44.28058,-40.72255l25.29013,-23.28168l69.57986,63.95848l-69.57986,64.03165l0,0z" stroke="#000" fill="#101414"/>
+    </g>
+  </svg>
+</div>
+<p>Це зображення svg</p>
+<img src="images/template.jpg" alt="cat">
+
+<p>Ну а це зображення jpg</p>
+</body>
+
+</html>
